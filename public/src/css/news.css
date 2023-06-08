@@ -1,0 +1,78 @@
+:root {
+   --mainColor: #F9A006;
+   --secondaryColor: #252525;
+   --thirdColor: #ffffff;
+   --fourColor : #e6e6e6;
+}
+
+#news {
+   margin-top: 80px;
+   margin-bottom: 60px;
+}
+
+.card {
+   margin-left: 35px;
+   margin-bottom: 25px;
+}
+
+.card:hover {
+   box-shadow: 0  5px 15px rgba(0, 0, 0, 0.25);
+   transition: all ease-in-out 0.3s;
+   color: var(--mainColor);
+   cursor: pointer;
+}
+
+.card-text {
+   font-size: small;
+   text-align: justify;
+   line-height: normal;
+}
+
+.imgThumbnail {
+   width: 585px;
+   height: 360px;
+}
+
+.line {
+   width: 168px;
+   margin: auto;
+   border: 1px solid var(--mainColor);
+}
+
+.banner {
+   margin-bottom: 45px;
+}
+
+.bc {
+   background-color: var(--mainColor);
+}
+
+@media screen and ( max-width : 968px) {
+   .imgThumbnail {
+      width: 585px;
+      height: 360px;
+   }
+
+   #newsDesc {
+      height: 70px;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+   }
+   .card {
+      margin-left: 25px;
+      margin-bottom: 25px;
+   }
+}
+
+@media screen and ( max-width : 560px) {
+   .imgThumbnail {
+      width: 585px;
+      height: 260px;
+   }
+   .card {
+      margin-left: 15px;
+      margin-bottom: 20px;
+   }
+}

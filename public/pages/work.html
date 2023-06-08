@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Mercury Media Group</title>
+   <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+   <link rel="stylesheet" href="../src/css/style.css">
+   <link rel="stylesheet" href="../src/css/works.css">
+   <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+   <link rel="stylesheet" href="../../node_modules/animate.css/animate.min.css">
+</head>
+<body>
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg bg-transparent fixed-top w-100">
+      <div class="container">
+         <span class="navbar-brand">
+            <img src="../../assets/logo/logo.jpg" alt="" width="90px" height="36px">
+         </span>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+               <li class="nav-item mx-2">
+                  <a class="nav-link" href="index.html">Home</a>
+               </li>
+               <li class="nav-item mx-2">
+                  <a class="nav-link" href="work.html">Work</a>
+               </li>
+               <li class="nav-item mx-2">
+                  <a class="nav-link" href="news.html">News</a>
+               </li>
+               <li class="nav-item mx-2">
+                  <a class="nav-link" href="free-consultant.html">Free Consultant</a>
+               </li>
+            </ul>
+            <button class="button-login">Login</button>
+         </div>
+      </div>
+   </nav>
+   <!-- Jumbotron -->
+   <div class="jumbotron jumbotron-fluid" id="home">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-7">
+               <h2 class="display-4 flipInX"><span> Collaborating with Us!</span></h2>     
+            </div>
+            <div class="col-md-7">
+               <p class="text-light fadeIn fw-semibold text-monospace">Trust us to transform your ideas into reality and surpass your expectations at every step. Let's collaborate and create something extraordinary together! </p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- banner -->
+   <div class="container-fluid">
+      <div class="container my-5">
+         <div class="row">
+            <div class="col-md-2 text-center">
+               <div class="menu">
+                  <ul class="navbar-nav mx-auto">
+                     <li class="nav-item">
+                        <a class="nav-link" href="index.html">Case Studies</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-md-1 text-lg-end">
+               <div class="menu">
+                  <ul class="navbar-nav mx-auto">
+                     <li class="nav-item mx-2">
+                        <a class="nav-link" href="index.html">Events</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-md-3 text-center">
+               <div class="menu">
+                  <ul class="navbar-nav mx-auto">
+                     <li class="nav-item mx-2">
+                        <a class="nav-link" href="index.html">Out of Home</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-md-1">
+               <div class="menu">
+                  <ul class="navbar-nav">
+                     <li class="nav-item">
+                        <div class="dropdown">
+                           <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                           <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Mercury FM</a></li>
+                              <li><a class="dropdown-item" href="#">Global FM</a></li>
+                              <li><a class="dropdown-item" href="#">DJ FM</a></li>
+                              <li><a class="dropdown-item" href="#">KOTA FM Surabaya</a></li>
+                              <li><a class="dropdown-item" href="#">Mas FM</a></li>
+                              <li><a class="dropdown-item" href="#">Pemenang FM</a></li>
+                              <li><a class="dropdown-item" href="#">Onair</a></li>
+                              <li><a class="dropdown-item" href="#">On Group Activation</a></li>
+                              <li><a class="dropdown-item" href="#">Group Activation</a></li>
+                              <li><a class="dropdown-item" href="#">Covid-19</a></li>
+                           </ul>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-md-4 offset-lg-1 search">
+               <form class="d-flex" role="search">
+                  <input class="form-control me-2 bg-transparent w-75" type="search" placeholder="Search" aria-label="Search">
+                  <button class="input-group-text bg-transparent" type="submit" id="searchItem"><img src="../../assets/vektor/Vector.png" width="25px" height="25px" alt="" /></button>
+               </form>
+            </div>
+         </div>
+         <div class="row">
+            <div class="row col-md-12 mt-2" id="listBarang"></div>
+         </div>
+      </div>
+   </div>
+   <!-- Content -->
+   <div class="container-fluid py-3">
+      <div class="container d-grid">
+         <div class="row">
+            <div class="col">
+               <div class="card" style="width: 18rem;">
+                  <img src="../../assets/img/work/work.jpg"  class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h4 class="card-title fw-bold py-lg-2 pb-sm-2">Going Forward</h4>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card" style="width: 18rem;">
+                  <img src="../../assets/img/work/work2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h4 class="card-title fw-bold py-lg-2 pb-sm-2">Going Forward</h4>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card" style="width: 18rem;">
+                  <img src="../../assets/img/work/work3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h4 class="card-title fw-bold py-lg-2 pb-sm-2">Going Forward</h4>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card zoomIn" style="width: 18rem;">
+                  <img src="../../assets/img/work/work4.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h4 class="card-title fw-bold py-lg-2 pb-sm-2">Going Forward</h4>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col zoomIn">
+               <div class="card" style="width: 18rem;">
+                  <img src="../../assets/img/work/work5.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h4 class="card-title fw-bold py-lg-2 pb-sm-2">Going Forward</h4>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col zoomIn">
+               <div class="card" style="width: 18rem;">
+                  <img src="../../assets/img/work/work6.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h4 class="card-title fw-bold py-lg-2 pb-sm-2">Going Forward</h4>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col text-center">
+               <div class="see-more">
+                  <button type="button" class="btn btn-light">See More</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <button id="toTop">
+      <i class="bi bi-caret-up d-flex justify-content-center pe-auto"></i>
+   </button>
+   <!-- footer -->
+   <footer class="d-flex align-items-center position-relative">
+      <div class="container-fluid">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-8 d-flex align-items-center justify-content-lg-start justify-content-center">
+                  <a href="#">Mercury Media Group</a>
+               </div>
+               <div class="col-lg-4 d-flex justify-content-evenly justify-content-center icon">
+                  <a href="https://www.instagram.com/mercurygroup.id/"><i class="bi bi-instagram"></i></a>
+                  <a href="https://twitter.com/mercurygroup_id"><i class="bi bi-twitter"></i></a>
+                  <a href="https://web.facebook.com/MercuryGroup.id/?ref=aymt_homepage_panel&_rdc=1&_rdr"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.youtube.com/channel/UCSkohQ6f6pcyCB-WQIqLQXg"><i class="bi bi-youtube"></i></a> 
+               </div>
+            </div>
+            <div class="row position-relative copyright   translate-middlecol-lg-5 d-flex justify-content-evenly justify-content-centerol-lg-12">
+               <div class="col-lg-12">
+                  <p class="text-center mt-2">Copyright by Maxxy Academy All Right Reserved.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <script src="../src/js/script.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js" integrity="sha512-+/4Q+xH9jXbMNJzNt2eMrYv/Zs2rzr4Bu2thfvzlshZBvH1g+VGP55W8b6xfku0c0KknE7qlbBPhDPrHFbgK4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</body>
+</html>
